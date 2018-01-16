@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Regular httpd containers from Docker Hub
 if [ ! -z "$PROXY_URL" ]
 then
 	# if proxy url configured, append ProxyPass config to httpd.conf
